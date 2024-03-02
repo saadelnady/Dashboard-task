@@ -161,6 +161,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 35px;
+  margin-bottom: 10px;
+}
+.Filters .stock .options .option,
+.Filters .stock .options .SelectOption {
+  margin-bottom: 10px;
 }
 
 .stock .options .option li {
