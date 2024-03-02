@@ -1,8 +1,8 @@
-import lowRisk from "./assets/lowrisk-icon.png";
-import highRisk from "./assets/highrisk-icon.png";
-import dollarIcon from "./assets/dollar-icon.png";
-import statisticsIcon from "./assets/statistics-icon.png";
-import viewIcon from "./assets/view-icon.png";
+import lowRisk from "./assets/images/lowrisk-icon.png";
+import highRisk from "./assets/images/highrisk-icon.png";
+import dollarIcon from "./assets/images/dollar-icon.png";
+import statisticsIcon from "./assets/images/statistics-icon.png";
+import viewIcon from "./assets/images/view-icon.png";
 export const tableData = [
   {
     title: "AMZN",

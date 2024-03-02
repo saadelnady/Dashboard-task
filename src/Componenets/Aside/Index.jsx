@@ -3,10 +3,10 @@ import "./styles/Aside.css";
 import NavBar from "./NavBar.jsx";
 import User from "./User.jsx";
 
-const Aside = () => {
+const Aside = ({ isActive, handleActivation }) => {
   return (
-    <aside className="Aside">
-      <NavBar />
+    <aside className={`Aside ${isActive ? "active" : ""}`}>
+      <NavBar handleActivation={handleActivation} />
       <User />
     </aside>
   );

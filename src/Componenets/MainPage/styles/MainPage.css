@@ -18,13 +18,14 @@
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .Header .burgerIcon {
     display: none;
   }
 }
 .Header .burgerIcon {
   width: 30px;
+  cursor: pointer;
 }
 .Header::before {
   position: absolute;
@@ -41,9 +42,8 @@
 }
 
 .Header h1 {
-  font-weight: bold;
+  font-weight: 700;
   margin-right: 20px;
-  font-size: 48px;
 }
 @media (max-width: 768px) {
   .Header {
@@ -129,7 +129,6 @@
 }
 .table-content {
   max-height: 81vh;
-  margin: 30px 30px;
   overflow-y: scroll;
 }
 @media (max-width: 768px) {
@@ -166,6 +165,11 @@
   padding: 10px;
   position: relative;
 }
+@media (max-width: 768px) {
+  .table-content table tbody tr td {
+    font-size: 14px;
+  }
+}
 .table-content table tbody tr td div.lowRisk {
   color: var(--Orange-color);
 }
@@ -184,7 +188,7 @@
   background-color: #fff;
 }
 .table-content table tbody tr td img {
-  margin-right: 20px;
+  margin-right: 7px;
 }
 
 .table-content table tbody .details {
